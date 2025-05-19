@@ -32,7 +32,7 @@ export default function SignUp() {
 
       }
       try{
-             const url = "http://localhost:3000/auth/signup"
+             const url = "authentication-hh69.vercel.app/auth/signup"
              const response = await fetch(url, {
                 method: "POST",
                 headers:{
